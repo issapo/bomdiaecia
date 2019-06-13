@@ -1,0 +1,48 @@
+body{
+    background-color: lightgreen;
+    margin: 0px;
+}
+
+nav{
+    background-color: lightpink;
+    display: flex;
+    align-items: center;
+    height: 80px;
+}
+.menu{
+    display: none;
+}
+
+a{
+    color: black;
+    font-size: 18pt;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-weight: bolder;
+    text-decoration: none;
+}
+nav div img{
+    height: 60px;
+    width: 80px;
+}
+
+.ativo{
+    display: flex;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 600px;
+    
+}
+main img{
+    width: 460px;
+}
+
+.roda-jequiti{
+    transform: rotate(1440deg);
+    transition: 1s;
+
+}
